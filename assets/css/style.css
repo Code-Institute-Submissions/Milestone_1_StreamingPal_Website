@@ -1,0 +1,73 @@
+/*-----------------FONTS----------------*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200;300;400;500;600&family=Xanh+Mono:ital@0;1&display=swap');
+
+
+/*-----------------MENU----------------*/
+
+.bg-color-name-title{
+    color: #537489;
+}
+
+
+.logo{
+    margin-left: 20px;
+    margin-top: -45px;
+}
+.logo img {
+    height: 200px;
+    width: 200px;
+}
+
+.ui-menu-color-aboutme{
+    background-color: #a22fff;
+    color: #fff;
+}
+
+.ui-menu-color-netflix{
+    background-color: #EB1E1A;
+}
+
+.ui-menu-color-primevideo{
+    background-color: #14C7EB;
+}
+
+.ui-menu-color-disney {
+    background-color: #070968;
+}
+
+.ui-menu-color-inspireme{
+    background-color: #4eac18;
+}
+
+.menuitem{
+    font-family: "Oswald", sans-serif;
+    width: 100px;
+    height: 100px;
+    line-height: 60px;
+    border-radius: 50%;
+    padding: 12px 0px;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    white-space: nowrap;
+    margin-left: 50px;
+}
+
+.menuitem a{
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 120px;
+}
+
+
+.menuitem span{
+    display: block;
+    width:100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
