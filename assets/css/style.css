@@ -116,7 +116,7 @@ body{
     position: relative;
 }
 
-h2{
+.tvseries,.movies{
     color: #dfecdec4;
     font-family: "Oswald", sans-serif;
     font-size: 20px;
@@ -206,4 +206,55 @@ color: #8e9ba1;
     text-align: center;
     margin-top: 150px;
     position: relative;
+}
+
+/*-----------------INSPIRE ME----------------*/
+
+.contact-heading {
+font-family: "Oswald", sans-serif;
+font-weight: 300;
+margin-top: 25px;
+margin-bottom: 20px;
+}
+
+.container-fluid{
+    color: #fff;
+    display: inline-block;
+    top: 100px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #d11717;
+}
+
+@media(min-width: 992px) {
+    .center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+.form-control{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.thanks{
+    text-align: center;
+}
+
+
+.formtext{
+font-family: "Oswald", sans-serif;
+letter-spacing: 1px;
 }
