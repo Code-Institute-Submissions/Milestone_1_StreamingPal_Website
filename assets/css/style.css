@@ -20,7 +20,7 @@
 .navigation{
     width: 100%;
     height: 120px;
-    background-color: rgba(15, 14, 14, 0.849);
+    background-color: rgb(22, 21, 21);
     position: fixed;
     margin-top:0;
     bottom: 200px;
@@ -116,6 +116,11 @@ body{
     position: relative;
 }
 
+.carousel{
+    width: 325px;
+    height: auto;
+}
+
 .tvseries,.movies{
     color: #dfecdec4;
     font-family: "Oswald", sans-serif;
@@ -134,12 +139,6 @@ body{
     overflow: hidden;
 }
 
-.wrapper2{
-  display: grid;
-    grid-template-columns: repeat(3,100%);
-    margin-top: 50px;
-    overflow: hidden;  
-}
 
 section{
     width: 100%;
@@ -257,4 +256,24 @@ button[type="submit"] {
 .formtext{
 font-family: "Oswald", sans-serif;
 letter-spacing: 1px;
+}
+
+/*-----------------MOVIE PREVIEW----------------*/
+
+.preview{
+max-width: 18%;
+height: auto;
+padding: 0;
+margin-top: 150px;
+margin-left: 300px;
+}
+
+.prevtext{
+    margin-left: 300px;
+    margin-top: -28%;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 1px;
+    font-size: 10px;
+    color: #fff;
 }
