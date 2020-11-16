@@ -7,6 +7,10 @@
     color: #537489;
 }
 
+.body{
+overflow: hidden;
+}
+
 .logo{
     margin-left: 20px;
     margin-top: -45px;
@@ -26,9 +30,10 @@
     bottom: 200px;
     padding: 0;
     top: 0;
+    z-index: 10;
 }
 
-.ui-menu-color-aboutme{
+.ui-menu-color-about{
     background-color: #a22fff;
     color: #fff;
     margin-left: 80px;
@@ -98,6 +103,32 @@
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+
+.gif{
+    position: relative;
+    z-index: 9;
+}
+
+.hometext{
+    font-family: "Oswald", sans-serif;
+    color: rgb(244, 247, 244);
+    font-size: px;
+  text-shadow: 1px 1px 2px rgb(3, 3, 3);
+  position: absolute;
+  margin: auto;
+  top: 250px;
+  z-index: 8;
+  text-align: center;
+  margin-left: 200px;
+}
+
+.h1{
+    font-size: 60px;
+}
+
+.h2{
+    font-size: 40px;
 }
 
 /*-----------------STREAMING PLATFORMS----------------*/
