@@ -1,0 +1,185 @@
+/*-----------------tablet vertical----------------*/
+@media only screen and (max-width: 768px) {
+
+.logo{
+    margin-left: 20px;
+    margin-top: -30px;
+    position: relative;
+}
+
+
+.navigation{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(22, 21, 21);
+    position: fixed;
+    margin-top:0;
+    bottom: 200px;
+    padding: 0;
+    top: 0;
+    z-index: 10;
+}
+
+.menuitem{
+    font-family: "Oswald", sans-serif;
+    width: 90px;
+    height: 90px;
+    line-height: 50px;
+    border-radius: 50%;
+    padding: 12px 0px;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    position: relative;
+    margin-top: 25px;
+    margin-left: 5px;
+}
+
+.gif{
+
+    width: 1500px;
+    height: 1050px;
+    margin-left: -50%;
+}
+
+.hometext{
+    font-family: "Oswald", sans-serif;
+    color: rgb(244, 247, 244);
+    text-shadow: 2px 2px 1px rgb(3, 3, 3);
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    z-index: 8;
+    text-align: center;
+}
+
+.h1{
+    font-size: 60px;
+}
+
+.h2{
+    font-size: 30px;
+}
+
+/*----------------streaming----------------*/
+
+.carousel{
+    width: 200px;
+    height: auto;
+}
+
+.tvseries,.movies{
+    color: #dfecdec4;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    margin-bottom: -30px;
+    margin-left: 60px;
+    padding: 0;
+    
+}
+
+.tvseries{
+  margin-top: 60px;  
+}
+.movies{
+    margin-top: 80px;
+}
+
+.netflix, .prime, .disney{
+    
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    margin-top: 200px;
+    position: relative;
+    font-size: 50px;
+}
+
+.aleft,.aright{
+position: absolute;
+color: #fff;
+text-decoration: none;
+font-size: 6em;
+background: #000000;
+width: 50px;
+padding: 0px;
+text-align: center;
+z-index:1;
+}
+
+.aleft{
+    top: -15px;
+    bottom: 0;
+    left: 0;
+    background: -webkit-linear-gradient(left, transparent 0%,#000 0%,transparent 100%);
+}
+
+.aright{
+  top: -15px;
+    bottom: 0;
+    right: 0; 
+    background: -webkit-linear-gradient(right, transparent 0%,#000 0%,transparent 100%);  
+}
+
+/*-----------------preview----------------*/
+.preview{
+max-width: 30%;
+height: auto;
+padding: 0;
+margin-top: 220px;
+margin-left: 40px;
+}
+
+.prevtext{
+    margin-left: 280px;
+    margin-top: -330px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 1px;
+    font-size: 10px;
+    color: #fff;
+    position: relative;
+}
+
+/*-----------------about----------------*/
+
+.me{
+    width: 300px;
+    height: auto;
+    border-radius: 50%;  
+    margin-top: 180px;
+    margin-left: 400px;
+}
+
+.prevtextme{
+    margin-left: 10px;
+    margin-top: -90px;
+    text-align: left;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+    font-weight: 200;
+    font-size: 15px;
+    color: #fff;
+    position: relative;
+}
+
+/*-----------------inspire me----------------*/
+
+.center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+.contact-heading {
+font-family: "Oswald", sans-serif;
+font-weight: 300;
+margin-top: 100px;
+margin-bottom: 20px;
+}
+
+
+}
+        /*-----------------mobile----------------*/
+        @media only screen and (min-width: 375px) {
