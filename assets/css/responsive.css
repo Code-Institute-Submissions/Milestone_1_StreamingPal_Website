@@ -1,5 +1,9 @@
-/*-----------------tablet vertical----------------*/
-@media only screen and (max-width: 768px) {
+
+/*-----------------TABLET HORIZONTAL----------------*/
+
+@media only screen and (max-width: 1024px) {
+
+/*-----------------NAV----------------*/
 
 .logo{
     margin-left: 20px;
@@ -7,6 +11,191 @@
     position: relative;
 }
 
+.navigation{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(22, 21, 21);
+    position: fixed;
+    margin-top:0;
+    bottom: 200px;
+    padding: 0;
+    top: 0;
+    z-index: 10;
+}
+
+.menuitem{
+    font-family: "Oswald", sans-serif;
+    width: 90px;
+    height: 90px;
+    line-height: 50px;
+    border-radius: 50%;
+    padding: 12px 0px;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    position: relative;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+/*-----------------HOMEPAGE----------------*/
+
+.gif{
+
+    width: 1100px;
+    height: 900px;
+    margin-left:-40px;
+}
+
+.hometext{
+    font-family: "Oswald", sans-serif;
+    color: rgb(244, 247, 244);
+    text-shadow: 2px 2px 1px rgb(3, 3, 3);
+    position: absolute;
+    left: 160px;
+    top: 50%;
+    z-index: 8;
+    text-align: center;
+}
+
+.h1{
+    font-size: 60px;
+}
+
+.h2{
+    font-size: 30px;
+}
+
+/*-----------------ABOUT ME----------------*/
+
+.me{
+    width: 400px;
+    height: auto;
+    border-radius: 50%;  
+    margin-top: 180px;
+    margin-left: 600px;
+}
+
+.prevtextme{
+    margin-left: 20px;
+    margin-top: -30%;
+    text-align: left;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+    font-weight: 200;
+    font-size: 15px;
+    color: #fff;
+    position: relative;
+}
+
+/*----------------STREAMING PLATFORMS----------------*/
+
+.carousel{
+    width: 260px;
+    height: auto;
+}
+
+.tvseries,.movies{
+    color: #dfecdec4;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    margin-bottom: -30px;
+    margin-left: 100px;
+    padding: 0;
+}
+
+.tvseries{
+    margin-top: 20px;  
+}
+
+.movies{
+    margin-top: 40px;
+}
+
+.netflix, .prime, .disney{
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    margin-top: 200px;
+    position: relative;
+    font-size: 50px;
+}
+
+.aleft,.aright{
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+    font-size: 6em;
+    background: #000000;
+    width: 50px;
+    padding: 0px;
+    text-align: center;
+    z-index:1;
+}
+
+.aleft{
+    top: -15px;
+    bottom: 0;
+    left: 0;
+    background: -webkit-linear-gradient(left, transparent 0%,#000 0%,transparent 100%);
+}
+
+.aright{
+    top: -15px;
+    bottom: 0;
+    right: 0; 
+    background: -webkit-linear-gradient(right, transparent 0%,#000 0%,transparent 100%);  
+}
+
+/*-----------------MOVIE PREVIEW----------------*/
+
+.preview{
+    max-width: 30%;
+    height: auto;
+    padding: 0;
+    margin-top: 220px;
+    margin-left: 40px;
+}
+
+.prevtext{
+    margin-left: 40%;
+    margin-top: -40%;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 1px;
+    font-size: 10px;
+    color: #fff;
+    position: relative;
+}
+
+/*-----------------INSPIRE ME----------------*/
+
+.center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+.contact-heading {
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+}
+
+/*-----------------TABLET VERTICAL----------------*/
+
+@media only screen and (max-width: 768px) {
+
+/*-----------------NAV----------------*/
+
+.logo{
+    margin-left: 20px;
+    margin-top: -30px;
+    position: relative;
+}
 
 .navigation{
     width: 100%;
@@ -35,8 +224,179 @@
     margin-left: 5px;
 }
 
+/*-----------------HOMEPAGE----------------*/
+
 .gif{
 
+    width: 1500px;
+    height: 1050px;
+    margin-left: -50%;
+}
+
+.hometext{
+    font-family: "Oswald", sans-serif;
+    color: rgb(244, 247, 244);
+    text-shadow: 2px 2px 1px rgb(3, 3, 3);
+    position: absolute;
+    left: 5%;
+    top: 40%;
+    z-index: 8;
+    text-align: center;
+}
+
+.h1{
+    font-size: 60px;
+}
+
+.h2{
+    font-size: 30px;
+}
+
+/*-----------------ABOUT ME----------------*/
+
+.me{
+    width: 300px;
+    height: auto;
+    border-radius: 50%;  
+    margin-top: 180px;
+    margin-left: 400px;
+}
+
+.prevtextme{
+    margin-left: 20px;
+    margin-top: -20%;
+    text-align: left;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+    font-weight: 200;
+    font-size: 15px;
+    color: #fff;
+    position: relative;
+}
+
+/*----------------STREAMING PLATFORMS----------------*/
+
+.carousel{
+    width: 200px;
+    height: auto;
+}
+
+.tvseries,.movies{
+    color: #dfecdec4;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    margin-bottom: -30px;
+    margin-left: 60px;
+    padding: 0;
+}
+
+.tvseries{
+    margin-top: 50px;  
+}
+.movies{
+    margin-top: 100px;
+}
+
+.netflix, .prime, .disney{
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    margin-top: 200px;
+    position: relative;
+    font-size: 50px;
+}
+
+.aleft,.aright{
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+    font-size: 6em;
+    background: #000000;
+    width: 50px;
+    padding: 0px;
+    text-align: center;
+    z-index:1;
+}
+
+.aleft{
+    top: -15px;
+    bottom: 0;
+    left: 0;
+    background: -webkit-linear-gradient(left, transparent 0%,#000 0%,transparent 100%);
+}
+
+.aright{
+  top: -15px;
+    bottom: 0;
+    right: 0; 
+    background: -webkit-linear-gradient(right, transparent 0%,#000 0%,transparent 100%);  
+}
+
+/*-----------------MOVIE PREVIEW----------------*/
+
+.preview{
+    max-width: 30%;
+    height: auto;
+    padding: 0;
+    margin-top: 220px;
+    margin-left: 40px;
+}
+
+.prevtext{
+    margin-left: 280px;
+    margin-top: -330px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 1px;
+    font-size: 10px;
+    color: #fff;
+    position: relative;
+}
+
+/*-----------------INSPIRE ME----------------*/
+
+.center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+.contact-heading {
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+}
+
+/*-----------------MOBILE----------------*/
+
+ @media only screen and (max-width:600px) {
+
+/*-----------------NAV----------------*/
+
+.logo{
+    margin-left: 20px;
+    margin-top: -30px;
+    position: relative;
+}
+
+.navigation{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(22, 21, 21);
+    position: fixed;
+    margin-top:0;
+    bottom: 200px;
+    padding: 0;
+    top: 0;
+    z-index: 10;
+}
+
+/*-----------------HOMEPAGE----------------*/
+
+.gif{
     width: 1500px;
     height: 1050px;
     margin-left: -50%;
@@ -54,105 +414,28 @@
 }
 
 .h1{
-    font-size: 60px;
+    margin-top: 100px;
+    font-size: 40px;
+    overflow-wrap: break-word;
 }
 
 .h2{
     font-size: 30px;
 }
 
-/*----------------streaming----------------*/
-
-.carousel{
-    width: 200px;
-    height: auto;
-}
-
-.tvseries,.movies{
-    color: #dfecdec4;
-    font-family: "Oswald", sans-serif;
-    font-size: 20px;
-    margin-bottom: -30px;
-    margin-left: 60px;
-    padding: 0;
-    
-}
-
-.tvseries{
-  margin-top: 60px;  
-}
-.movies{
-    margin-top: 80px;
-}
-
-.netflix, .prime, .disney{
-    
-    font-family: "Oswald", sans-serif;
-    text-align: center;
-    margin-top: 200px;
-    position: relative;
-    font-size: 50px;
-}
-
-.aleft,.aright{
-position: absolute;
-color: #fff;
-text-decoration: none;
-font-size: 6em;
-background: #000000;
-width: 50px;
-padding: 0px;
-text-align: center;
-z-index:1;
-}
-
-.aleft{
-    top: -15px;
-    bottom: 0;
-    left: 0;
-    background: -webkit-linear-gradient(left, transparent 0%,#000 0%,transparent 100%);
-}
-
-.aright{
-  top: -15px;
-    bottom: 0;
-    right: 0; 
-    background: -webkit-linear-gradient(right, transparent 0%,#000 0%,transparent 100%);  
-}
-
-/*-----------------preview----------------*/
-.preview{
-max-width: 30%;
-height: auto;
-padding: 0;
-margin-top: 220px;
-margin-left: 40px;
-}
-
-.prevtext{
-    margin-left: 280px;
-    margin-top: -330px;
-    text-align: center;
-    font-family: "Oswald", sans-serif;
-    letter-spacing: 1px;
-    font-size: 10px;
-    color: #fff;
-    position: relative;
-}
-
-/*-----------------about----------------*/
+/*-----------------ABOUT ME----------------*/
 
 .me{
     width: 300px;
     height: auto;
     border-radius: 50%;  
     margin-top: 180px;
-    margin-left: 400px;
+    margin-left: 50px;
 }
 
 .prevtextme{
-    margin-left: 10px;
-    margin-top: -90px;
+    margin-left: 20px;
+    margin-top: 10px;
     text-align: left;
     font-family: "Oswald", sans-serif;
     letter-spacing: 1.5px;
@@ -163,7 +446,120 @@ margin-left: 40px;
     position: relative;
 }
 
-/*-----------------inspire me----------------*/
+/*----------------STREAMING PLATFORMS----------------*/
+
+body{
+    margin: 0;
+    background-color: #000;
+}
+
+.netflix{
+    color: red;  
+}
+
+.netflix, .prime, .disney{
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    margin-top: 150px;
+    position: relative;
+    font-size: 50px;
+}
+
+.carousel{
+    width: 325px;
+    height: auto;
+}
+
+.tvseries,.movies{
+    color: #dfecdec4;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    margin-left: 170px;
+    padding: 0;
+}
+
+.tvseries{
+    margin-top: 50px; 
+    display: block;
+    margin-left: 40%;
+    margin-right: auto;
+    width: 50%; 
+}
+
+.movies{
+    display: block;
+    margin-left: 40%;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,100%);
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+section{
+    position: relative;
+    display: block;
+    margin-right: auto;
+    width: 100%;
+}
+
+.item{
+    padding: 0, 2px;
+    margin-left: 20px;
+}
+
+.aleft,.aright{
+    position: absolute;
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    font-size: 8em;
+    width: 100px;
+    padding: 20px;
+    text-align: center;
+    z-index:1;
+}
+
+.aleft{
+    top: 230px;
+    bottom: 0;
+    left: 0;
+    background: -webkit-linear-gradient(right, transparent 100%,#000 0%,transparent 100%);
+}
+
+.aright{
+    top: 230px;
+    bottom: 0;
+    right: 0; 
+    background: -webkit-linear-gradient(right, transparent 100%,#000 0%,transparent 100%);
+}
+
+/*-----------------MOVIE PREVIEW----------------*/
+
+.preview{
+    max-width: 40%;
+    height: auto;
+    padding: 0;
+    margin-top: 220px;
+    margin-left: 30%;
+}
+
+.prevtext{
+    margin-left: 5px;
+    margin-top: 100px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 1px;
+    font-size: 10px;
+    color: #fff;
+    position: relative;
+}
+
+/*-----------------INSPIRE ME----------------*/
 
 .center-form {
     padding-top: 30px;
@@ -173,13 +569,9 @@ margin-left: 40px;
 }
 
 .contact-heading {
-font-family: "Oswald", sans-serif;
-font-weight: 300;
-margin-top: 100px;
-margin-bottom: 20px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    margin-top: 100px;
+    margin-bottom: 20px;
 }
-
-
 }
-        /*-----------------mobile----------------*/
-        @media only screen and (min-width: 375px) {
