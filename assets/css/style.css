@@ -9,6 +9,10 @@
     overflow: hidden;
 }
 
+.content{
+    margin-bottom: 100px;
+}
+
 .logo{
     margin-left: 20px;
     margin-top: -45px;
@@ -86,28 +90,43 @@
     letter-spacing: 2px;
 }
 
+#sign-one{
+    display: none;
+}
+
+#sign-two{
+    display: none;
+}
+
+input{
+display: none;
+}
+
 /*-----------------HOMEPAGE----------------*/
 
 .gif{
-    width: 100%;
-    height: 110%;
-    filter: brightness(40%);
+    background-image: url(https://www.adweek.com/wp-content/uploads/2018/01/tv-shows-screens-PAGE-2017.gif);
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+    filter: brightness(30%);
 }
 
 .hometext{
     font-family: "Oswald", sans-serif;
     color: rgb(244, 247, 244);
-    font-size: px;
-    text-shadow: 2px 2px 1px rgb(3, 3, 3);
+    text-shadow: 2px 2px 1px rgb(8, 8, 8);
     position: absolute;
+    z-index: 50;
     left: 15%;
     top: 30%;
-    z-index: 8;
     text-align: center;
+    
 }
 
 .h1{
-    font-size: 80px;
+    font-size: 70px;
 }
 
 .h2{
@@ -163,7 +182,7 @@ body{
 }
 
 .carousel{
-    width: 325px;
+    width: 340px;
     height: auto;
 }
 
@@ -184,12 +203,14 @@ body{
     overflow: hidden;
 }
 
+
+
 section{
     width: 100%;
     position: relative;
     display: grid;
     grid-template-columns: repeat(7,auto);
-    margin: 20px, 0;
+    margin: 20px, 0px;
 }
 
 .item{
@@ -244,57 +265,7 @@ section{
     color: rgb(40, 28, 209);
 }
 
-/*-----------------INSPIRE ME----------------*/
-
-.contact-heading {
-    font-family: "Oswald", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 20px;
-}
-
-.container-fluid{
-    color: #fff;
-    display: inline-block;
-    top: 100px;
-}
-
-.center-form {
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 70%;
-}
-
-button[type="submit"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
-    color: #fafafa;
-    background-color: #d11717;
-}
-
-.form-control{
-    margin-bottom: 5px;
-    margin-top: 5px;
-}
-
-.thanks{
-    text-align: center;
-}
-
-
-.formtext{
-    font-family: "Oswald", sans-serif;
-    letter-spacing: 1px;
-}
-
-
-
-
-
-
-
-
-
+/*-----------------MODALS----------------*/
 
 .button {
   border-radius: 20px/50px;
@@ -325,9 +296,10 @@ button[type="submit"] {
   background: #fff;
   border-radius: 5px;
   width: 60%;
-  position: absolute;
   transition: all 0.5s;
-  overflow: auto;
+  max-height: 80%;
+  overflow-y: auto;
+  position: absolute;
 }
 
 .popup h2 {
@@ -352,4 +324,94 @@ button[type="submit"] {
   max-height: 30%;
   overflow: auto;
 }
+
+
+/*-----------------INSPIRE ME----------------*/
+
+.contact-heading {
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.container-fluid{
+    color: #fff;
+    display: inline-block;
+    top: 100px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    color: #fafafa;
+    background-color: #d11717;
+    margin-bottom: 100px;
+}
+
+.form-control{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.thanks{
+    text-align: center;
+}
+
+
+.formtext{
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 1px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(31, 30, 30, 0.795);
+  color: white;
+  text-align: center;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    margin-top:10px;
+    transition: all 0,35s ease-in-out;
+    -moz-transition: all 0,35s ease-in-out;
+    -webkit-transition: all 0,35s ease-in-out;
+    -o-transition: all 0,35s ease-in-out;
+    }    
+
+.social-links li a i:hover {
+    background-color: #e81010;
+}
+
+#footer-details {
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
     
