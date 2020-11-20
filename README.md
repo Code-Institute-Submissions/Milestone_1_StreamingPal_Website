@@ -1,12 +1,12 @@
 
 # ReadMe StreamingPal
 
-<img src="assets/images/logo.png" style="height: 200px; width: 200px;">
+![StreamingPal](/assets/images/logo.png)
 
 StreamingPal is a website that help the user to decide what to watch on streaming 
 from Netflix, Prime Video or Disney+ in short time by providing them with only the information they really need for their choice.
 
-You can visit the website by clicking here.
+You can visit the website by clicking [here](https://fral96.github.io/Milestone_1_StreamingPal_Website/).
 
 --------------------
 ## 1. UX
@@ -60,9 +60,9 @@ and clicking on them, the user will find just a few information to make him/her 
 The wireframes were designed on Balsamiq.
 Click on the following link to view them.
 
-Desktop
-Tablet
-Mobile
+[Desktop](./assets/wireframes/desktop.pdf)
+[Tablet](./assets/wireframes/tablet.pdf)
+[Mobile](./assets/wireframes/mobile.pdf)
 
 ## 2.Features
 
@@ -98,17 +98,22 @@ Every category has its name on the top and underneath there are 2 carouselds. On
 
 3. Technologies understand
 
-* HTML5 - to create the code for the website.
-* CSS3 - to create the styling.
-* Balsamiq - to create the wireframes.
-* Gitpod - to host the code and styling.
-* GitHub - to hold the repository.
-* Canva - to design the logo.
-* Bootstrap - for ideas about elements.
-* Google fonts - for the website's font.
-* Font awesome - for the icons.
+* [HTML5] (https://en.wikipedia.org/wiki/HTML5)- to create the code for the website.
+* [CSS3] (https://en.wikipedia.org/wiki/CSS) - to create the styling.
+* [Balsamiq] (https://balsamiq.com/) - to create the wireframes.
+* [Gitpod] (https://www.gitpod.io/) - to host the code and styling.
+* [GitHub] (https://github.com/) - to hold the repository.
+* [Canva] (https://www.canva.com/) - to design the logo.
+* [Bootstrap] (https://getbootstrap.com/) - for ideas about elements.
+* [Googlefonts] (https://fonts.google.com/) - for the website's font.
+* [Fontawesome] (https://fontawesome.com/) - for the icons.
 
 ### 4.Testing
+
+#### Code Validators
+
+To verify my HTML code I used W3C:
+
 
 ### 5.Deployment
 
@@ -117,7 +122,7 @@ The website was deployed on Github pages. The procedure was the following:
 1. Open Github
 2. Select the right repository
 3. Click on settings
-4. Scroll down to the Githup Pages section
+4. Scroll down to the Github Pages section
 5. Select Branch as Master and save
 6. Refresh the page
 7. Scroll down to the same section
@@ -131,15 +136,15 @@ Add clone
 #### 6.1 Content 
 
 All the text is been created by me
-I got some advices from Stack overload when I had some bugs.
-I followed some tutorials from W3schools to center the pictures, create the hamburger menu and the footer
-I watched Raddy The Brand's tutorial on how to create a carousel.
-I got the base for the bode from the Rosie resume from Code Institute
+I got some advices from [StackOverflow] (https://stackoverflow.com/) when I had some bugs.
+I followed some tutorials from [W3schools] (https://www.w3schools.com/) to center the pictures, create the hamburger menu and the footer
+I watched [RaddyTheBrand] (https://raddy.co.uk/) 's tutorial on how to create a carousel.
+I got the base for the body from the Rosie resume from [CodeInstitute](https://courses.codeinstitute.net/program/FullstackWebDeveloper).
 
 #### 6.1 Media
 
-I got all the pictures from Netflix, Prime Video and Disney +
-The gif used for the homepage is from adweek.com
+I got all the pictures from [Netflix] (https://www.netflix.com/browse) , [PrimeVideo] (https://www.primevideo.com/storefront/home/ref=atv_nb_logo) and [Disney+] (https://www.disneyplus.com/eu/en-gb/home).
+The gif used for the homepage is from [AdWeek] (https://www.adweek.com/tv-video/theres-no-stopping-peak-tv-as-487-scripted-series-aired-in-2017/).
 
 #### 6.2 Acknowledgments
 
@@ -147,5 +152,3 @@ A big thank you to my mentor Precious I. that gave me great advices and help me 
 To my partner Cathal for creating the name and the slogan, for the spelling check and more important, for sustaining me mentally and emotionally, always.
 To my parents Monica and Gabriel, for believing in me from day one and sustaining me even from far.
 To Declan, Ann, Roisin, Padraig, Niamh and Aisling for introducing me to Code Institute and for being my second family.
-
-Big part of the creation of this project is just because of them.
