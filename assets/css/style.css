@@ -215,11 +215,11 @@ section{
     position: relative;
     display: grid;
     grid-template-columns: repeat(7,auto);
-    margin: 20px, 0px;
+    margin: 20px 0;
 }
 
 .item{
-    padding: 0, 2px;
+    padding: 0 2px;
 }
 
 .aleft,.aright{
@@ -398,10 +398,10 @@ button[type="submit"] {
     color: #fafafa;
     background: #8f8f8f;
     margin-top:10px;
-    transition: all 0,35s ease-in-out;
-    -moz-transition: all 0,35s ease-in-out;
-    -webkit-transition: all 0,35s ease-in-out;
-    -o-transition: all 0,35s ease-in-out;
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
     }    
 
 .social-links li a i:hover {
@@ -411,15 +411,3 @@ button[type="submit"] {
 #footer-details {
     padding: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-    
