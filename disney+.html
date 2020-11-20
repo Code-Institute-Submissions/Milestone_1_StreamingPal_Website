@@ -1,419 +1,507 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+    <!--HEAD-->
+
+    <head>
+
+        <!--META-->
+
         <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg==" crossorigin="anonymous"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
-    <title>StreamingPal - Disney +</title>
-</head>
-<body>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg==" crossorigin="anonymous"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <title>StreamingPal - Disney +</title>
+    </head>
 
-<!-----------------NAV---------------->
+    <!--BODY--> 
 
-<header>
-<nav>
-<div class="row no-gutters navigation">
-<a href="index.html" class="col-md-3 logo">
-<img src="assets/images/logo.png" alt="StreamingPal">
-</a>
-<input type="checkbox" id="res-menu">
-<label for="res-menu">
-<i class="fa fa-bars" id="sign-one"></i>
-<i class="fa fa-times" id="sign-two"></i>
-</label>
-<ul class="list-inline menucontainer">
-<li class=" ui-menu-color-about list-inline-item menuitem hamburger-menu__item">
-<a href="aboutme.html" class="hvr-buzz-out"><span>About me</span></a>
-</li>
+    <body>
 
-<li class=" ui-menu-color-netflix list-inline-item menuitem hamburger-menu__item">
-<a href="netflix.html" class="hvr-buzz-out"><span>Netflix</span></a>
-</li>
+        <!--NAV-->
 
-<li class=" ui-menu-color-primevideo list-inline-item menuitem hamburger-menu__item">
-<a href="primevideo.html" class="hvr-buzz-out"><span>Prime Video</span></a>
-</li>
+        <header>
+            <nav>
+                <div class="row no-gutters navigation">
+                    <a href="index.html" class="col-md-3 logo">
+                        <img src="assets/images/logo.png" alt="StreamingPal">
+                    </a>
+                    <input type="checkbox" id="res-menu">
+                    <label for="res-menu">
+                        <i class="fa fa-bars" id="sign-one">
+                        </i>
+                        <i class="fa fa-times" id="sign-two">
+                        </i>
+                    </label>
+                    <ul class="list-inline menucontainer">
+                        <li class=" ui-menu-color-about list-inline-item menuitem hamburger-menu__item">
+                            <a href="aboutme.html" class="hvr-buzz-out">
+                                <span>About me
+                                </span>
+                            </a>
+                        </li>
 
-<li class=" ui-menu-color-disney list-inline-item menuitem hamburger-menu__item">
-<a href="disney+.html" class="hvr-buzz-out"><span>Disney+</span></a>
-</li>
+                        <li class=" ui-menu-color-netflix list-inline-item menuitem hamburger-menu__item">
+                            <a href="netflix.html" class="hvr-buzz-out">
+                                <span>Netflix
+                                </span>
+                            </a>
+                        </li>
 
-<li class=" ui-menu-color-inspireme list-inline-item menuitem hamburger-menu__item">
-<a href="inspireme.html" class="hvr-buzz-out"><span>Inspire Me</span></a>
-</li>
-</ul>
-</div>
-</nav>
-</header> 
+                        <li class=" ui-menu-color-primevideo list-inline-item menuitem hamburger-menu__item">
+                            <a href="primevideo.html" class="hvr-buzz-out">
+                                <span>Prime Video
+                                </span>
+                            </a>
+                        </li>
 
-<!-----------------STREAMING PLATFORMS---------------->
-<!-----------------line1 - tv series---------------->
-<div class="content">
-<h1 class="disney">DISNEY+</h1>
-<h2 class="tvseries">TV SERIES</h2>
-<div class="wrapper">
+                        <li class=" ui-menu-color-disney list-inline-item menuitem hamburger-menu__item">
+                            <a href="disney+.html" class="hvr-buzz-out">
+                                <span>Disney+
+                                </span>
+                            </a>
+                        </li>
 
-<section id="section1">
+                        <li class=" ui-menu-color-inspireme list-inline-item menuitem hamburger-menu__item">
+                            <a href="inspireme.html" class="hvr-buzz-out">
+                                <span>Inspire Me
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header> 
 
-<div class="box">
-<div class="item">
-	<a class="button" href="#popup1">
-<img src="assets/images/pics_disney_carousel/car_lizzie.jpg" class="hvr-grow carousel" alt="lizzie mcguire"/>
-</a>
-</div>
-</div>
-<div id="popup1" class="overlay">
-	<div class="popup">
-		<h3>NAME</h3>
-		<a class="close" href="#">×</a>
-		<div class="content">
-<p>year<br>
-genere</p>
-<h5>Actors you might know</h5>
-<p>#</p>
-<h5>Plot</h5>
-<p>#</p>
-<h5>My opinion</h5>
-<p>#
-</p>
-		</div>
-	</div>
-</div>
+        <!--STREAMING PLATFORMS-->
 
-<div class="box">
-<div class="item">
-	<a class="button" href="#popup2">
-<img src="assets/images/pics_disney_carousel/car_simpsons.jpg" class="hvr-grow carousel" alt="the simpsons"/>
-</a>
-</div>
-</div>
-<div id="popup2" class="overlay">
-	<div class="popup">
-		<h3>NAME</h3>
-		<a class="close" href="#">×</a>
-		<div class="content">
-<p>year<br>
-genere</p>
-<h5>Actors you might know</h5>
-<p>#</p>
-<h5>Plot</h5>
-<p>#</p>
-<h5>My opinion</h5>
-<p>#
-</p>
-		</div>
-	</div>
-</div>
+        <!--line1 - tv series-->
 
-<div class="box">
-<div class="item">
-	<a class="button" href="#popup3">
-<img src="assets/images/pics_disney_carousel/car_gravityfalls.jpg" class="hvr-grow carousel" alt="gravity falls"/>
-</a>
-</div>
-</div>
-<div id="popup3" class="overlay">
-	<div class="popup">
-		<h3>NAME</h3>
-		<a class="close" href="#">×</a>
-		<div class="content">
-<p>year<br>
-genere</p>
-<h5>Actors you might know</h5>
-<p>#</p>
-<h5>Plot</h5>
-<p>#</p>
-<h5>My opinion</h5>
-<p>#
-</p>
-		</div>
-	</div>
-</div>
+        <div class="content">
+            <h1 class="disney">DISNEY+
+            </h1>
+            <h2 class="tvseries">TV SERIES
+            </h2>
+            <div class="wrapper">
 
-<div class="box">
-<div class="item">
-	<a class="button" href="#popup4">
-<img src="assets/images/pics_disney_carousel/car_kimpossible.jpg" class="hvr-grow carousel" alt="kim possible"/>
-</a>
-</div>
-</div>
-<div id="popup4" class="overlay">
-	<div class="popup">
-		<h3>NAME</h3>
-		<a class="close" href="#">×</a>
-		<div class="content">
-<p>year<br>
-genere</p>
-<h5>Actors you might know</h5>
-<p>#</p>
-<h5>Plot</h5>
-<p>#</p>
-<h5>My opinion</h5>
-<p>#
-</p>
-		</div>
-	</div>
-</div>
+                <section id="section1">
 
-</section>
-</div>
+                    <div class="box">
+                        <div class="item">
+                            <a class="button" href="#popup1">
+                                <img src="assets/images/pics_disney_carousel/car_lizzie.jpg" class="hvr-grow carousel" alt="lizzie mcguire"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="popup1" class="overlay">
+                        <div class="popup">
+                            <h3>NAME
+                            </h3>
+                            <a class="close" href="#">×
+                            </a>
+                            <div class="content">
+                                <p>year<br>genere
+                                </p>
+                                <h5>Actors you might know
+                                </h5>
+                                <p>#
+                                </p>
+                                <h5>Plot
+                                </h5>
+                                <p>#
+                                </p>
+                                <h5>My opinion
+                                </h5>
+                                <p>#
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
-<!-----------------line2 - movies---------------->
+                    <div class="box">
+                        <div class="item">
+                            <a class="button" href="#popup2">
+                                <img src="assets/images/pics_disney_carousel/car_simpsons.jpg" class="hvr-grow carousel" alt="the simpsons"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="popup2" class="overlay">
+                        <div class="popup">
+                            <h3>NAME
+                            </h3>
+                            <a class="close" href="#">×
+                            </a>
+                            <div class="content">
+                                <p>year<br>genere
+                                </p>
+                                <h5>Actors you might know
+                                </h5>
+                                <p>#
+                                </p>
+                                <h5>Plot
+                                </h5>
+                                <p>#
+                                </p>
+                                <h5>My opinion
+                                </h5>
+                                <p>#
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
-<h2 class="movies">MOVIES</h2>
-<div class="wrapper">
+                    <div class="box">
+                        <div class="item">
+                            <a class="button" href="#popup3">
+                                <img src="assets/images/pics_disney_carousel/car_gravityfalls.jpg" class="hvr-grow carousel" alt="gravity falls"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="popup3" class="overlay">
+                        <div class="popup">
+                            <h3>NAME
+                            </h3>
+                            <a class="close" href="#">×
+                            </a>
+                            <div class="content">
+                                <p>year<br>genere
+                                </p>
+                                <h5>Actors you might know
+                                </h5>
+                                <p>#
+                                </p>
+                                <h5>Plot
+                                </h5>
+                                <p>#
+                                </p>
+                                <h5>My opinion
+                                </h5>
+                                <p>#
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
-<section id="section1.1">
-<a class="aleft" href="#section2.1">‹</a>
+                    <div class="box">
+                        <div class="item">
+                            <a class="button" href="#popup4">
+                                <img src="assets/images/pics_disney_carousel/car_kimpossible.jpg" class="hvr-grow carousel" alt="kim possible"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="popup4" class="overlay">
+                        <div class="popup">
+                            <h3>NAME
+                            </h3>
+                            <a class="close" href="#">×
+                            </a>
+                            <div class="content">
+                                <p>year<br>genere
+                                </p>
+                                <h5>Actors you might know
+                                </h5>
+                                <p>#
+                                </p>
+                                <h5>Plot
+                                </h5>
+                                <p>#
+                                </p>
+                                <h5>My opinion
+                                </h5>
+                                <p>#
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
-<div class="box">
-<div class="item">
-	<a class="button" href="#popup5">
-<img src="assets/images/pics_disney_carousel/car_muppets.jpg" class="hvr-grow carousel movie" alt="the muppets"/>
-</a>
-</div>
-</div>
-<div id="popup5" class="overlay">
-	<div class="popup">
-		<h3>NAME</h3>
-		<a class="close" href="#">×</a>
-		<div class="content">
-<p>year<br>
-genere</p>
-<h5>Actors you might know</h5>
-<p>#</p>
-<h5>Plot</h5>
-<p>#</p>
-<h5>My opinion</h5>
-<p>#
-</p>
-		</div>
-	</div>
-</div>
+                </section>
+            </div>
 
-<div class="box">
-<div class="item">
-	<a class="button" href="#popup6">
-<img src="assets/images/pics_disney_carousel/car_edward.jpg" class="hvr-grow carousel movie" alt="edward scissorhands"/>
-</a>
-</div>
-</div>
-<div id="popup6" class="overlay">
-	<div class="popup">
-		<h3>NAME</h3>
-		<a class="close" href="#">×</a>
-		<div class="content">
-<p>year<br>
-genere</p>
-<h5>Actors you might know</h5>
-<p>#</p>
-<h5>Plot</h5>
-<p>#</p>
-<h5>My opinion</h5>
-<p>#
-</p>
-		</div>
-	</div>
-</div>
+            <!--line2 - movies-->
 
-<div class="box">
-<div class="item">
-	<a class="button" href="#popup7">
-<img src="assets/images/pics_disney_carousel/car_ferdinand.jpg" class="hvr-grow carousel movie" alt="ferdinand"/>
-</a>
-</div>
-</div>
-<div id="popup7" class="overlay">
-	<div class="popup">
-		<h3>NAME</h3>
-		<a class="close" href="#">×</a>
-		<div class="content">
-<p>year<br>
-genere</p>
-<h5>Actors you might know</h5>
-<p>#</p>
-<h5>Plot</h5>
-<p>#</p>
-<h5>My opinion</h5>
-<p>#
-</p>
-		</div>
-	</div>
-</div>
+            <h2 class="movies">MOVIES
+            </h2>
+            <div class="wrapper">
 
-<div class="box">
-<div class="item">
-	<a class="button" href="#popup8">
-<img src="assets/images/pics_disney_carousel/car_lavitaèbella.jpg" class="hvr-grow carousel movie" alt="la vita è bella"/>
-</a>
-</div>
-</div>
-<div id="popup8" class="overlay">
-	<div class="popup">
-		<h3>NAME</h3>
-		<a class="close" href="#">×</a>
-		<div class="content">
-<p>year<br>
-genere</p>
-<h5>Actors you might know</h5>
-<p>#</p>
-<h5>Plot</h5>
-<p>#</p>
-<h5>My opinion</h5>
-<p>#
-</p>
-		</div>
-	</div>
-</div>
+                <section id="section1.1">
+                    <a class="aleft" href="#section2.1">‹
+                    </a>
 
-<a class="aright" href="#section2.1">›</a>
-</section>
+                    <div class="box">
+                        <div class="item">
+                            <a class="button" href="#popup5">
+                                <img src="assets/images/pics_disney_carousel/car_muppets.jpg" class="hvr-grow carousel movie" alt="the muppets"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="popup5" class="overlay">
+                        <div class="popup">
+                            <h3>NAME
+                            </h3>
+                            <a class="close" href="#">×
+                            </a>
+                            <div class="content">
+                            <p>year<br>genere
+                            </p>
+                            <h5>Actors you might know</h5>
+                            <p>#</p>
+                            <h5>Plot</h5>
+                            <p>#</p>
+                            <h5>My opinion</h5>
+                            <p>#
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-<!-----------------page 2---------------->
+                <div class="box">
+                    <div class="item">
+                        <a class="button" href="#popup6">
+                            <img src="assets/images/pics_disney_carousel/car_edward.jpg" class="hvr-grow carousel movie" alt="edward scissorhands"/>
+                        </a>
+                    </div>
+                </div>
+                <div id="popup6" class="overlay">
+                    <div class="popup">
+                        <h3>NAME
+                        </h3>
+                        <a class="close" href="#">×
+                        </a>
+                        <div class="content">
+                            <p>year<br>genere
+                            </p>
+                            <h5>Actors you might know</h5>
+                            <p>#</p>
+                            <h5>Plot</h5>
+                            <p>#</p>
+                            <h5>My opinion</h5>
+                            <p>#
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-<section id="section2.1">
-<a class="aleft" href="#section1.1">‹</a>
+                <div class="box">
+                    <div class="item">
+                        <a class="button" href="#popup7">
+                            <img src="assets/images/pics_disney_carousel/car_ferdinand.jpg" class="hvr-grow carousel movie" alt="ferdinand"/>
+                        </a>
+                    </div>
+                </div>
+                <div id="popup7" class="overlay">
+                    <div class="popup">
+                        <h3>NAME
+                        </h3>
+                        <a class="close" href="#">×
+                        </a>
+                        <div class="content">
+                            <p>year<br>genere
+                            </p>
+                            <h5>Actors you might know</h5>
+                            <p>#</p>
+                            <h5>Plot</h5>
+                            <p>#</p>
+                            <h5>My opinion</h5>
+                            <p>#
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-<div class="box">
-<div class="item">
-	<a class="button" href="#popup9">
-<img src="assets/images/pics_disney_carousel/car_kuzco.jpg" class="hvr-grow carousel movie" alt="emperor's new groove"/>
-</a>
-</div>
-</div>
-<div id="popup9" class="overlay">
-	<div class="popup">
-		<h3>NAME</h3>
-		<a class="close" href="#">×</a>
-		<div class="content">
-<p>year<br>
-genere</p>
-<h5>Actors you might know</h5>
-<p>#</p>
-<h5>Plot</h5>
-<p>#</p>
-<h5>My opinion</h5>
-<p>#
-</p>
-		</div>
-	</div>
-</div>
+                <div class="box">
+                    <div class="item">
+                        <a class="button" href="#popup8">
+                            <img src="assets/images/pics_disney_carousel/car_lavitaèbella.jpg" class="hvr-grow carousel movie" alt="la vita è bella"/>
+                        </a>
+                    </div>
+                </div>
+                <div id="popup8" class="overlay">
+                    <div class="popup">
+                        <h3>NAME
+                        </h3>
+                        <a class="close" href="#">×
+                        </a>
+                        <div class="content">
+                            <p>year<br>genere</p>
+                            <h5>Actors you might know</h5>
+                            <p>#</p>
+                            <h5>Plot</h5>
+                            <p>#</p>
+                            <h5>My opinion</h5>
+                            <p>#
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-<div class="box">
-<div class="item">
-	<a class="button" href="#popup10">
-<img src="assets/images/pics_disney_carousel/car_endgame.jpg" class="hvr-grow carousel movie" alt="endgame"/>
-</a>
-</div>
-</div>
-<div id="popup10" class="overlay">
-	<div class="popup">
-		<h3>NAME</h3>
-		<a class="close" href="#">×</a>
-		<div class="content">
-<p>year<br>
-genere</p>
-<h5>Actors you might know</h5>
-<p>#</p>
-<h5>Plot</h5>
-<p>#</p>
-<h5>My opinion</h5>
-<p>#
-</p>
-		</div>
-	</div>
-</div>
+                <a class="aright" href="#section2.1">›</a>
+            </section>
 
-<div class="box">
-<div class="item">
-	<a class="button" href="#popup11">
-<img src="assets/images/pics_disney_carousel/car_hamilton.jpg" class="hvr-grow carousel movie" alt="hamilton"/>
-</a>
-</div>
-</div>
-<div id="popup11" class="overlay">
-	<div class="popup">
-		<h3>NAME</h3>
-		<a class="close" href="#">×</a>
-		<div class="content">
-<p>year<br>
-genere</p>
-<h5>Actors you might know</h5>
-<p>#</p>
-<h5>Plot</h5>
-<p>#</p>
-<h5>My opinion</h5>
-<p>#
-</p>
-		</div>
-	</div>
-</div>
+            <!--page 2-->
 
-<div class="box">
-<div class="item">
-	<a class="button" href="#popup12">
-<img src="assets/images/pics_disney_carousel/car_coco.jpg" class="hvr-grow carousel movie" alt="car_coco"/>
-</a>
-</div>
-</div>
-<div id="popup12" class="overlay">
-	<div class="popup">
-		<h3>NAME</h3>
-		<a class="close" href="#">×</a>
-		<div class="content">
-<p>year<br>
-genere</p>
-<h5>Actors you might know</h5>
-<p>#</p>
-<h5>Plot</h5>
-<p>#</p>
-<h5>My opinion</h5>
-<p>#
-</p>
-		</div>
-	</div>
-</div>
+            <section id="section2.1">
+                <a class="aleft" href="#section1.1">‹
+                </a>
 
-<a class="aright" href="#section1.1">›</a>
-</section>
-</div>
+                <div class="box">
+                    <div class="item">
+                        <a class="button" href="#popup9">
+                            <img src="assets/images/pics_disney_carousel/car_kuzco.jpg" class="hvr-grow carousel movie" alt="emperor's new groove"/>
+                        </a>
+                    </div>
+                </div>
+                <div id="popup9" class="overlay">
+                    <div class="popup">
+                        <h3>NAME
+                        </h3>
+                        <a class="close" href="#">×
+                        </a>
+                        <div class="content">
+                            <p>year<br>genere
+                            </p>
+                            <h5>Actors you might know</h5>
+                            <p>#</p>
+                            <h5>Plot</h5>
+                            <p>#</p>
+                            <h5>My opinion</h5>
+                            <p>#
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-<div class="footer">
-  <ul class="list-inline social-links">
+                <div class="box">
+                    <div class="item">
+                        <a class="button" href="#popup10">
+                            <img src="assets/images/pics_disney_carousel/car_endgame.jpg" class="hvr-grow carousel movie" alt="endgame"/>
+                        </a>
+                    </div>
+                </div>
+                <div id="popup10" class="overlay">
+                    <div class="popup">
+                        <h3>NAME</h3>
+                        <a class="close" href="#">×</a>
+                        <div class="content">
+                            <p>year<br>genere
+                            </p>
+                            <h5>Actors you might know</h5>
+                            <p>#</p>
+                            <h5>Plot</h5>
+                            <p>#</p>
+                            <h5>My opinion</h5>
+                            <p>#
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-<li class="list-inline-item">
-<a target="_blank" href="https://www.facebook.com/">
-<i class="fa fa-facebook" aria-hidden="true"></i>
-<span class="sr-only">Facebook</span>
-</a>
-</li>
+                <div class="box">
+                    <div class="item">
+                        <a class="button" href="#popup11">
+                            <img src="assets/images/pics_disney_carousel/car_hamilton.jpg" class="hvr-grow carousel movie" alt="hamilton"/>
+                        </a>
+                    </div>
+                </div>
+                <div id="popup11" class="overlay">
+                    <div class="popup">
+                        <h3>NAME
+                        </h3>
+                        <a class="close" href="#">×</a>
+                            <div class="content">
+                                <p>year<br>genere
+                                </p>
+                                <h5>Actors you might know</h5>
+                                <p>#
+                                </p>
+                                <h5>Plot</h5>
+                                <p>#</p>
+                                <h5>My opinion</h5>
+                                <p>#
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
-<li class="list-inline-item">
-<a target="_blank" href="https://www.instagram.com/">
-<i class="fa fa-instagram" aria-hidden="true"></i>
-<span class="sr-only">Instagram</span>
-</a>
-</li>
-<li class="list-inline-item">
-<a target="_blank" href="https://www.youtube.com/">
-<i class="fa fa-youtube" aria-hidden="true"></i>
-<span class="sr-only">Youtube</span>
-</a>
-</li>
+                    <div class="box">
+                        <div class="item">
+                            <a class="button" href="#popup12">
+                                <img src="assets/images/pics_disney_carousel/car_coco.jpg" class="hvr-grow carousel movie" alt="car_coco"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="popup12" class="overlay">
+                        <div class="popup">
+                            <h3>NAME
+                            </h3>
+                            <a class="close" href="#">×
+                            </a>
+                            <div class="content">
+                            <p>year<br>genere
+                            </p>
+                            <h5>Actors you might know
+                            </h5>
+                            <p>#
+                            </p>
+                            <h5>Plot
+                            </h5>
+                            <p>#
+                            </p>
+                            <h5>My opinion
+                            </h5>
+                            <p>#
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-<li class="list-inline-item">
-<a target="_blank" href="https://twitter.com/home?lang=en">
-<i class="fa fa-twitter" aria-hidden="true"></i>
-<span class="sr-only">Twitter</span>
-</a>
-</li>
+                <a class="aright" href="#section1.1">›
+                </a>
+            </section>
+        </div>
 
-</ul>
-</div>
-</div>
-</body>
+        <div class="footer">
+            <ul class="list-inline social-links">
+
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.facebook.com/">
+                        <i class="fa fa-facebook" aria-hidden="true">
+                        </i>
+                        <span class="sr-only">Facebook
+                        </span>
+                    </a>
+                </li>
+
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.instagram.com/">
+                        <i class="fa fa-instagram" aria-hidden="true">
+                        </i>
+                        <span class="sr-only">Instagram
+                        </span>
+                    </a>
+                </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.youtube.com/">
+                            <i class="fa fa-youtube" aria-hidden="true">
+                            </i>
+                            <span class="sr-only">Youtube
+                            </span>
+                        </a>
+                    </li>
+
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://twitter.com/home?lang=en">
+                            <i class="fa fa-twitter" aria-hidden="true">
+                            </i>
+                            <span class="sr-only">Twitter
+                            </span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </body>
 </html>

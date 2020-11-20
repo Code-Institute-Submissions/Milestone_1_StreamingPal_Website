@@ -1,5 +1,6 @@
 
 /*-----------------TABLET HORIZONTAL----------------*/
+
 @media only screen and (max-width: 1025px) {
 
 /*-----------------NAV----------------*/
@@ -262,12 +263,13 @@
 
 .box{
     width: 70%;
-  }
-  .popup{
+}
+
+.popup{
     width: 70%;
     margin-left: 100px;
     margin-top: 100px;
-  }
+}
 
 .tvseries,.movies{
     color: #dfecdec4;
@@ -365,6 +367,7 @@
 .box{
     width: 70%;
   }
+  
   .popup{
     width: 70%;
   }
@@ -380,6 +383,8 @@
     top: 0;
     z-index: 10;
 }
+
+/*-----------------hamburger menu----------------*/
 
 label #sign-one,
 label #sign-two{
@@ -624,7 +629,11 @@ section{
 }
 }
 
+/*-----------------SMALLER MOBILE----------------*/
+
 @media only screen and (max-width:320px){
+
+/*-----------------STREAMING PLATFORMS----------------*/
 
 .carousel{
     width: 130%;

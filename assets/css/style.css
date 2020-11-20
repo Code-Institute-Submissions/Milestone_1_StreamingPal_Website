@@ -289,6 +289,7 @@ section{
   opacity: 0;
   z-index: 900;
 }
+
 .overlay:target {
   visibility: visible;
   opacity: 1;
@@ -329,7 +330,6 @@ section{
   max-height: 30%;
   overflow: auto;
 }
-
 
 /*-----------------INSPIRE ME----------------*/
 
@@ -374,16 +374,17 @@ button[type="submit"] {
     letter-spacing: 1px;
 }
 
+/*-----------------FOOTER----------------*/
 
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: rgba(31, 30, 30, 0.795);
-  color: white;
-  text-align: center;
-  z-index: 200;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(31, 30, 30, 0.795);
+    color: white;
+    text-align: center;
+    z-index: 200;
 }
 
 .social-links li a i {
