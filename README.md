@@ -90,24 +90,44 @@ GitHub - to hold the repository.
 Canva - to design the logo.
 Bootstrap - for ideas about elements.
 Google font - for the website's font.
-Netflix / Prime Video / Disney + - for the pictures.
+
 Font awesome - for the icons.
 
 
+4. Testing
+5. Deployment
+The website was deployed on Github pages. The procedure was the following:
+Open Github
+Select the right repository
+Click on settings
+Scroll down to the Githup Pages section
+Select Branch as Master and save
+Refresh the page
+Scroll down to the same section
+This time a message will say "Your site is published at:..."
+Click on that URL and you will be redirected to StreamingPal
+
+Add clone
 
 
+6.Credits
+6.1 Content 
 
+All the text is been created by me
+I got some advices from Stack overload when I had some bugs.
+I followed some tutorials from W3schools to center the pictures, create the hamburger menu and the footer
+I watched Raddy The Brand's tutorial on how to create a carousel.
+I got the base for the bode from the Rosie resume from Code Institute
 
+6.1 Media
+I got all the pictures from Netflix, Prime Video and Disney +
+The gif used for the homepage is from adweek.com
 
+6.2 Acknowledgments
 
+A big thank you to my mentor Precious I. that gave me great advices and help me to go through this first milestone.
+To my partner Cathal for creating the name and the slogan, for the spelling check and more important, for sustaining me mentally and emotionally, always.
+To my parents Monica and Gabriel, for believing in me from day one and sustaining me even from far.
+To Declan, Ann, Roisin, Padraig, Niamh and Aisling for introducing me to Code Institute and for being my second family.
 
-
-
-Stack overload - to help me when I had some bugs.
-W3schools - for tutorials and code on the elements of the website.
-
-Raddy The Brand - for the tutorial on how to create a carousel.
-Code institute - for the tutorials
-
-
-
+Big part of the creation of this project is just because of them.

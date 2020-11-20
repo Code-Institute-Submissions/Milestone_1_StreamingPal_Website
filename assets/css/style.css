@@ -5,10 +5,6 @@
 
 /*-----------------NAV----------------*/
 
-.body{
-    overflow: hidden;
-}
-
 .content{
     margin-bottom: 100px;
 }
@@ -119,8 +115,8 @@ display: none;
     text-shadow: 2px 2px 1px rgb(8, 8, 8);
     position: absolute;
     z-index: 50;
-    left: 15%;
-    top: 30%;
+    left: 20%;
+    top: 20%;
     text-align: center;
     
 }
@@ -130,7 +126,15 @@ display: none;
 }
 
 .h2{
+    margin-top: 10px;
     font-size: 40px;
+}
+
+.h6{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    z-index: -1;
+    font-weight: 300;
 }
 
 /*-----------------ABOUT ME----------------*/
@@ -369,6 +373,7 @@ button[type="submit"] {
     letter-spacing: 1px;
 }
 
+
 .footer {
   position: fixed;
   left: 0;
@@ -377,6 +382,7 @@ button[type="submit"] {
   background-color: rgba(31, 30, 30, 0.795);
   color: white;
   text-align: center;
+  z-index: 200;
 }
 
 .social-links li a i {

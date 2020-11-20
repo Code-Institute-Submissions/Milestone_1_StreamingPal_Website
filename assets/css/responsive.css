@@ -39,13 +39,6 @@
 
 /*-----------------HOMEPAGE----------------*/
 
-.gif{
-
-    width: 2100px;
-    height: 1800px;
-    margin-left:-500px;
-}
-
 .hometext{
     font-family: "Oswald", sans-serif;
     color: rgb(244, 247, 244);
@@ -217,13 +210,6 @@
 }
 
 /*-----------------HOMEPAGE----------------*/
-
-.gif{
-
-    width: 1500px;
-    height: 1050px;
-    margin-left: -50%;
-}
 
 .hometext{
     font-family: "Oswald", sans-serif;
@@ -451,19 +437,14 @@ nav ul li a {
 
 /*-----------------HOMEPAGE----------------*/
 
-.gif{
-    width: 1500px;
-    height: 1050px;
-    margin-left: -50%;
-}
-
 .hometext{
     font-family: "Oswald", sans-serif;
     color: rgb(244, 247, 244);
     text-shadow: 2px 2px 1px rgb(3, 3, 3);
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 30%;
+    bottom: 30%;
     z-index: 8;
     text-align: center;
 }
@@ -476,6 +457,10 @@ nav ul li a {
 
 .h2{
     font-size: 20px;
+}
+
+.h6{
+    margin-bottom: 80px;
 }
 
 .menuitem{
