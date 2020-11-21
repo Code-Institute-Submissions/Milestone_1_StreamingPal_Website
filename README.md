@@ -136,7 +136,7 @@ To verify my HTML code I used [W3C](https://validator.w3.org/):
 
 All my HTML code return with this same warning:
 
-![HTML](/assets/readme/HTMLvalidator.png)
+![HTML](//readme/HTMLvalidator.png)
 
 I decided to keep the line noted as warning as helped me to control better the responsiveness of the website.
 
@@ -145,7 +145,7 @@ To verify my CSS code I used [W3C](https://jigsaw.w3.org/css-validator/):
 
 The CSS code came out without errors:
 
-![CSS](/assets/readme/CSS+responsive.png)
+![CSS](/readme/CSS+responsive.png)
 
 -------------------------------------------------------------
 
