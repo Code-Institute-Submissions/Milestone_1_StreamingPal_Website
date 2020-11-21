@@ -40,6 +40,8 @@ and clicking on them, the user will find just a few information to make him/her 
 
 * As a moderator, I want the homepage to be eye catching, so that the user will understand that this is a professional website.
 * As a user, I want a wow effect when I enter the website, so I will be motivated to look into.
+* As a moderator, in the footer I provide the social medias where I am more active, so that users can contact me anywhere and many more people can learn about my website.
+* As a user I want to be able to find StreamingPal on the most used social media so I can share it with my friends. 
 
 #### About me
 
@@ -59,7 +61,6 @@ and clicking on them, the user will find just a few information to make him/her 
 #### Inspire me
 
 * As a moderator, I want people to advise me about movies/tv series that they think are cool and deserve to be reviewed, so that I can keep my website always updated and full of titles.
-* As a user, I want people to know about this new tv series I am watching, so that many more will watch it and we could have a season 2 soon.
 * As a user, I found this hidden gem of a movie/tv series and I want to recommend it so that other people could watch it.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -69,9 +70,9 @@ and clicking on them, the user will find just a few information to make him/her 
 The wireframes were designed on Balsamiq.
 Click on the following link to view them.
 
-[Desktop](./assets/readme/desktop.pdf)
-[Tablet](./assets/readme/tablet.pdf)
-[Mobile](./assets/readme/mobile.pdf)
+[Desktop](./assets/wireframes/desktop.pdf)
+[Tablet](./assets/wireframes/tablet.pdf)
+[Mobile](./assets/wireframes/mobile.pdf)
 
 ------------------------------------------
 
@@ -112,7 +113,7 @@ Every category has its name on the top and underneath there are 2 carousels. One
 
 ------------------------------------------------------------------------------------
 
-3. Technologies understand
+## 3. Technologies used
 
 * [HTML5](https://en.wikipedia.org/wiki/HTML5) - to create the code for the website.
 * [CSS3](https://en.wikipedia.org/wiki/CSS) - to create the styling.
@@ -163,7 +164,7 @@ In each of these devices the design, images and functionality work without issue
 
 -----------------------------------------------------------------------------------------
 
-The website seem to display correctly on the following browsers:
+The website displays and functions correctly on the following browsers:
 
 * Chrome
 * Edge
@@ -191,10 +192,16 @@ The users, once on the homepage, will just have to click on the streaming platfo
 
 * As a moderator, I want the homepage to be eye catching, so that the user will understand that this is a professional website.
 * As a user, I want a wow effect when I enter the website, so I will be motivated to look into.
+* As a moderator, I want to provide the social medias where I am more active on, so that users can contact me anywhere and many more people can learn about my website.
+* As a user I want to be able to find StreamingPal on the most used social media so I can share it with my friends. 
 
 I set a gif as homepage background in order to give the WOW effect to everybody visiting the website and invite them to look more into.
 
 I also added some (fictional) reviews to make users understand that many people have a positive opinion about StreamingPal.
+
+In the footer, users can find the socials where I have an account with my website: Facebook, Instagram, Youtube and Twitter.
+
+
 
 #### About me
 
@@ -222,7 +229,6 @@ In the modal the users will see when selecting a movie they will find a really s
 #### Inspire me
 
 * As a moderator, I want people to advise me about movies/tv series that they think are cool and deserve to be reviewed, so that I can keep my website always updated and full of titles.
-* As a user, I want people to know about this new tv series I am watching, so that many more will watch it and we could have a season 2 soon.
 * As a user, I found this hidden gem of a movie/tv series and I want to recommend it so that other people could watch it.
 
 From the homepage, the users can click on the Inspire me tab. In that section they will find a little form that they can fill if they just seen a tv series of movie that they really enjoy and that is still not on the website.
@@ -232,7 +238,16 @@ The form requires a name, email address, streaming platform and a few informatio
 
 #### Bugs
 
-TO DO
+* One of the bugs I found is the menu that, when displayed on smaller devices, wasn't easily accessible.
+I solved this problem by creating a hamburger menu that activates only on devices that are too small to display the normal one.
+
+* Another bug I found was that when you are in the section Netflix, Prime Video or Disney+ and click on one of the arrows of the carousels, the page scrolls completely up.
+I couldn't find what provoke this up so I decided to contact the tutor team to ask for suggestions. In their opinion this could be stopped just by using JQuery and JavaScript, however, at the moment I have no knowledge about those programs so I decided to not use them.
+When I will acquire those knowledges I will go back and try solve this problem.
+
+* Another problem I had is that to create the previews for the movies I created too many HTML files (one for movie).
+I solved this by writing the information about movies and tv series in modals that appear when a movie is clicked.
+
 
 ---------------------------------------------------------------------------
 
@@ -263,8 +278,8 @@ To clone the project from Github you can follow these instructions:
 2. Select the right repository
 3. Click on the Code button on the right
 4. Copy the HTTPS link
-5. OPen your terminal of choice and type git clone
-6. A window will open and you will have to select the position where to clone the project
+5. Open your terminal and select the position where to clone the project
+6. Then type git clone and paste the copied link
 7. Press enter and you will be able to find the file in the selected location
 
 -------------------------------------------
@@ -277,11 +292,13 @@ All the text is been created by me
 
 I got some advices from [StackOverflow](https://stackoverflow.com/) when I had some bugs.
 
-I followed some tutorials from [W3schools](https://www.w3schools.com/) to center the pictures, create the hamburger menu and the footer
+I followed some tutorials from [W3schools](https://www.w3schools.com/) to center the [pictures](https://www.w3schools.com/howto/howto_css_image_center.asp), and the [footer](https://www.w3schools.com/howto/howto_css_fixed_footer.asp).
+
+I got the code to do the responsive hamburger menu from [CodePen](https://codepen.io/mutedblues/pen/MmPNPG).
 
 I watched [RaddyTheBrand](https://raddy.co.uk/) 's tutorial on how to create a carousel.
 
-I got the base for the body from the Rosie resume from [CodeInstitute](https://courses.codeinstitute.net/program/FullstackWebDeveloper).
+I got the base for the body from the [Rosie](https://github.com/FraL96/Rosie_resume) resume from [CodeInstitute](https://courses.codeinstitute.net/program/FullstackWebDeveloper).
 
 -------------------------------------------------------------------
 
@@ -293,10 +310,10 @@ The gif used for the homepage is from [AdWeek](https://www.adweek.com/tv-video/t
 
 #### 6.2 Acknowledgments
 
-A big thank you to my mentor Precious Ijege that gave me great advices and help me to go through this first milestone.
+A big thank you to my mentor [Precious](https://www.linkedin.com/in/precious-ijege-908a00168/) Ijege that gave me great advices and help me to go through this first milestone.
 
-To my partner Cathal for creating the name and the slogan, for the spelling check and more important, for sustaining me mentally and emotionally, always.
+To my partner [Cathal](https://www.linkedin.com/in/cathal-moore-674949197/) for creating the name and the slogan, for the spelling check and more important, for sustaining me mentally and emotionally, always.
 
 To my parents Monica and Gabriel, for believing in me from day one and sustaining me even from far.
 
-To Declan, Ann, Roisin, Padraig, Niamh and Aisling for introducing me to Code Institute and for being my second family.
+To [Declan](https://www.linkedin.com/in/declan-moore-83728b80/), Ann, Roisin, Padraig, [Niamh](https://www.linkedin.com/in/niamh-moore-6406301aa/) and Aisling for introducing me to Code Institute and for being my second family.
