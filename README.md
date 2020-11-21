@@ -4,7 +4,7 @@
 
 ![StreamingPal](/assets/images/logo.png)
 
-StreamingPal is a website that help the user to decide what to watch on streaming 
+StreamingPal is a website that helps the user to decide what to watch on streaming 
 from Netflix, Prime Video or Disney+ in short time by providing them with only the information they really need for their choice.
 
 You can visit the website by clicking [here](https://fral96.github.io/Milestone_1_StreamingPal_Website/).
@@ -16,8 +16,8 @@ You can visit the website by clicking [here](https://fral96.github.io/Milestone_
 
 Streaming pal is a consultancy website that people can use to plan their movie night and get ideas on what to watch.
 
-Many people, like me, love watching tv series and movies, when planning to do so, spend several minutes browsing through the titles on
-their streaming platform, then going online to read review and maybe, after a few minutes of watching the chosen one,
+Many people, like me, love watching tv series and movies and when planning to do so, spend several minutes browsing through the titles on
+their streaming platform, then going online to read the reviews and maybe, after a few minutes of watching the chosen one,
 they realize is actually boring. This website was created for them.
 
 StreamingPal's goal is to reduce drastically this waste of time.
@@ -81,9 +81,9 @@ Click on the following link to view them.
 ### 2.1 Present Features
 
 * Logo: It represent a couch with a pack of pop corn on to communicate the field of the website. It also include the name of the website "StreamingPal".
-By clicking on it,you will be redirected to the homepage.
+By clicking on it, you will be redirected to the homepage.
 
-* Navigation bar: It includes the pages that can be explored on the website (in the responsive mobile version, this menu becomes a humburger menu)
+* Navigation bar: It includes the pages that can be explored on the website (in the responsive mobile version, this menu becomes a hamburger menu).
 
 * Footer: It includes the connection to the social media where "StreamingPal" is more active - Facebook, Instagram, Youtube and Twitter
 (at the moment, they are connected just to the homepage of those social medias).
@@ -92,11 +92,12 @@ Logo, Navigation bar and footer are consistent throughout all pages
 
 * Title: The title, on top of the browser shows the name of the website and the page where you are at the moment.
 
-* Homepage: It includes a slogan to attracts the user, a little description of what the website does and a few opinion that some important people gave about "StreamingPal"(fictional).
-The background is a gif that intend to giv the WOW effect and interest the users.
+* Homepage: It includes a slogan to attracts the user, a little description of what the website does and a few opinions that some important people gave about "StreamingPal"(fictional).
+The background is a gif that intend to give the WOW effect and interest the users.
 
 * About me: This section include a picture of myself and a description of me and the website. Also, a list of the kind of tv series and movies I like an the ones I do not.
-Netflix / Prime Video / Disney+: These section are similar, the only difference will be the movies and tv series belonging to the different platforms.
+
+* Netflix / Prime Video / Disney+: These section are similar, the only difference will be the movies and tv series belonging to the different platforms.
 Every category has its name on the top and underneath there are 2 carousels. One with tv series and one with movies. When a movie is clicked, a few information about it appear in a modal.
 
 * Inspire me: In this section the user can fill the form if they would like to recommend me a movie or tv series to watch and review to make it more popular.
@@ -166,13 +167,13 @@ In each of these devices the design, images and functionality work without issue
 
 The website displays and functions correctly on the following browsers:
 
-* Chrome
-* Edge
-* Opera
-* Firefox
-* Safary
+* [Chrome](https://www.google.com/intl/en_ie/chrome/)
+* [Edge](https://www.microsoft.com/en-us/edge)
+* [Opera](https://www.opera.com/)
+* [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+* [Safary](https://www.apple.com/safari/)
 
-However it seems to have some problems with Internet Explorer: the browser seem to not recognize the picture carousels.
+However it seems to have some problems with [Internet Explorer](https://www.microsoft.com/en-ie/download/details.aspx?id=41628): the browser seem to not recognize the picture carousels.
 
 ------------------------------------------------------------------------
 
@@ -242,10 +243,10 @@ The form requires a name, email address, streaming platform and a few informatio
 I solved this problem by creating a hamburger menu that activates only on devices that are too small to display the normal one.
 
 * Another bug I found was that when you are in the section Netflix, Prime Video or Disney+ and click on one of the arrows of the carousels, the page scrolls completely up.
-I couldn't find what provoke this up so I decided to contact the tutor team to ask for suggestions. In their opinion this could be stopped just by using JQuery and JavaScript, however, at the moment I have no knowledge about those programs so I decided to not use them.
+I couldn't find what provoke this bug so I decided to contact the tutor team to ask for suggestions. In their opinion this could be stopped just by using JQuery and JavaScript, however, at the moment I have no knowledge about those programs so I decided to not use them.
 When I will acquire those knowledges I will go back and try solve this problem.
 
-* Another problem I had is that to create the previews for the movies I created too many HTML files (one for movie).
+* Another problem I had is that to create the previews for the movies I created too many HTML files (one per movie).
 I solved this by writing the information about movies and tv series in modals that appear when a movie is clicked.
 
 
