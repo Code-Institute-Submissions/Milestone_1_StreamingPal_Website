@@ -1,4 +1,24 @@
 
+/*-----------------BIGGER DESKTOP----------------*/
+
+@media only screen and (min-width:1026px){
+
+  .hometext{
+    font-family: "Oswald", sans-serif;
+    color: rgb(244, 247, 244);
+    text-shadow: 2px 2px 1px rgb(3, 3, 3);
+    position: absolute;
+    z-index: 8;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    top: 30%;
+    left: 0;
+    right: 0;
+    margin-top: -9px;
+}
+}  
+
 /*-----------------TABLET HORIZONTAL----------------*/
 
 @media only screen and (max-width: 1025px) {
@@ -210,6 +230,13 @@
     margin-left: 5px;
 }
 
+.logo img {
+    height: 200px;
+    width: 200px;
+    margin-left: -15%;
+    position: fixed;
+}
+
 /*-----------------HOMEPAGE----------------*/
 
 .hometext{
@@ -354,7 +381,7 @@
 
 /*-----------------MOBILE----------------*/
 
- @media only screen and (max-width:770px) {
+ @media only screen and (max-width:767px) {
 
 /*-----------------NAV----------------*/
 
@@ -382,6 +409,13 @@
     padding: 0;
     top: 0;
     z-index: 10;
+}
+
+.logo img {
+    height: 200px;
+    width: 200px;
+    margin-left: -50%;
+    position: fixed;
 }
 
 /*-----------------hamburger menu----------------*/
